@@ -31,6 +31,7 @@ body .light-green {
 .banner {
   background-color: var(--pearl);
   height: 95dvh;
+  padding: 0 8%;
 }
 
 .banner .content {
@@ -38,7 +39,6 @@ body .light-green {
   height: inherit;
   justify-content: center;
   align-items: center;
-  max-width: 87dvw;
   width: 100%;
   margin: 0 auto;
   padding: 8px;
@@ -273,6 +273,11 @@ body .light-green {
   padding: 22%;
   border: 1px solid var(--pearl);
   justify-self: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+#benefits .benefits-grid .benefit-box:hover {
+  transform: scale(0.95);
 }
 
 #benefits .benefits-grid .benefit-box .benefit-title {
@@ -329,6 +334,7 @@ body .light-green {
   max-width: 54.48vw;
   width: 100%;
   z-index: 10;
+  object-fit: contain;
 }
 /* SECTION LEARN MORE */
 
@@ -445,6 +451,7 @@ body .light-green {
   min-width: min-content;
   padding: 4px 40px;
   text-align: center;
+  min-width: fit-content;
 }
 
 .tag {
@@ -500,6 +507,40 @@ body .light-green {
     calc(50% + var(--s) * -0.059) calc(50% + var(--s) * -0.538) var(--g),
     calc(50% + var(--s) * 0.338) calc(50% + var(--s) * -0.422) var(--g),
     calc(50% + var(--s) * 0.538) calc(50% + var(--s) * -0.059) var(--g);
+}
+
+.animate-from-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.animation-from-left-start {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.animate-from-bottom {
+  opacity: 0;
+  transform: translateY(80px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.animation-from-bottom-start {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animate-open {
+  opacity: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.animation-open {
+  opacity: 1;
+  transform: scale(1);
 }
 
 /* COMPONENTS */

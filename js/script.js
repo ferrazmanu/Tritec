@@ -39,3 +39,25 @@ const swiper = new Swiper(".swiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+// ANIMATION LOGIC
+function setupAnimationObserver(
+  triggerClass,
+  animationClass,
+  options = { threshold: 0.1 }
+) {
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add(animationClass);
+      }
+    });
+  }, options);
+
+  const elements = document.querySelectorAll(`.${triggerClass}`);
+  elements.forEach((el) => observer.observe(el));
+}
+
+setupAnimationObserver("animate-from-left", "animation-from-left-start");
+setupAnimationObserver("animate-from-bottom", "animation-from-bottom-start");
+setupAnimationObserver("animate-open", "animation-open");
