@@ -102,12 +102,10 @@ body .light-green {
 .banner p {
   font-size: var(--size_32);
   color: var(--chicane);
-  font-style: italic;
   font-family: MyriadPro-SemiboldIt !important;
 }
 
 .banner h1 span {
-  font-weight: 800;
   font-family: MyriadPro-Bold !important;
 }
 /* BANNER */
@@ -359,15 +357,17 @@ body .light-green {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  gap: 12%;
+  gap: 6%;
 }
 
 #contact .container .section-title {
-  width: 70%;
+  width: 63%;
 }
+
 #contact .container .section-title h2 {
   font-size: var(--size_68);
   display: inline-block;
+  font-family: MyriadPro-Bold !important;
 }
 #contact .container .section-title h2 span {
   color: var(--pearl);
@@ -380,7 +380,7 @@ body .light-green {
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 24px;
 }
 
 .form-row {
@@ -396,7 +396,7 @@ body .light-green {
 }
 
 .form-group label {
-  font-size: var(--size_18);
+  font-size: 18px;
   color: var(--pearl);
   margin-bottom: 8px;
 }
@@ -418,7 +418,6 @@ body .light-green {
 .form-button {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
 }
 
 .form-button button {
@@ -443,7 +442,6 @@ body .light-green {
 .button {
   background-color: var(--light-green);
   color: var(--pearl);
-  font-weight: bold;
   min-height: 58px;
   font-size: 20px;
   display: flex;
@@ -476,15 +474,18 @@ body .light-green {
 }
 
 .section-title h2 {
-  color: var(--dark-green);
   font-size: var(--size_82);
-  font-weight: 800;
-  font-family: MyriadPro-Bold !important;
   display: flex;
   flex-direction: column;
 }
 
-.section-title h2 span {
+.section-title h2 {
+  font-family: MyriadPro-Bold !important;
+  color: var(--dark-green);
+}
+
+.section-title span {
+  font-family: MyriadPro-Bold !important;
   color: var(--light-green);
 }
 
@@ -592,6 +593,8 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  position: relative;
+  z-index: 2;
 }
 
 footer hr {
@@ -603,7 +606,6 @@ footer .created-by {
   padding: 30px 0;
   display: flex;
   justify-content: flex-end;
-  font-weight: 400;
   font-family: MyriadPro-Light !important;
   font-size: var(--size_18);
 }
