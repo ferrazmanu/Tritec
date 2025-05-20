@@ -9,7 +9,7 @@
   --size_68: clamp(2rem, 3.54vw, 4.25rem);
   --size_53: clamp(1.8rem, 2.76vw, 3.31rem);
   --size_45: clamp(1.5rem, 2.34vw, 2.813rem);
-  --size_32: clamp(1rem, 1.67vw, 2rem);
+  --size_32: clamp(1rem, 2vw, 2.5rem);
   --size_20: clamp(0.875rem, 1.04vw, 1.25rem);
   --size_18: clamp(0.813rem, 0.93vw, 1.125rem);
   --size_15: clamp(0.75rem, 0.78vw, 0.93rem);
@@ -103,7 +103,7 @@ body .light-green {
   font-size: var(--size_32);
   color: var(--chicane);
   font-style: italic;
-  font-weight: bold;
+  font-family: MyriadPro-SemiboldIt !important;
 }
 
 .banner h1 span {
@@ -175,7 +175,7 @@ body .light-green {
 
 #store .content .head-box {
   padding-left: 50%;
-  padding-right: 10%;
+  padding-right: 9%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -186,8 +186,7 @@ body .light-green {
   color: var(--pearl);
   font-size: var(--size_53);
   letter-spacing: 0em;
-  font-style: italic;
-  font-family: MyriadPro-Bold;
+  font-family: MyriadPro-BoldIt;
 }
 
 #store .content .head-box .title h2 span {
@@ -196,8 +195,8 @@ body .light-green {
 
 #store .content .text-box {
   background-color: var(--moss-green);
-  padding: 2.6vw 12vh;
-  border-top-right-radius: 15vw;
+  padding: 4vw 12vh;
+  border-top-right-radius: 12vw;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -303,7 +302,7 @@ body .light-green {
 /* SECTION LEARN MORE */
 #learn-more {
   background-color: var(--pearl);
-  padding: 4% 16%;
+  padding: 4% 8% 8% 8%;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -444,18 +443,19 @@ body .light-green {
   background-color: var(--light-green);
   color: var(--pearl);
   font-weight: bold;
-  min-height: 48px;
-  font-size: var(--size_20);
+  min-height: 58px;
+  font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50px;
-  max-width: 40%;
+  max-width: 390px;
   width: 100%;
-  min-width: min-content;
-  padding: 4px 40px;
+  padding: 10px 40px;
   text-align: center;
   min-width: fit-content;
+  letter-spacing: 0em;
+  font-family: MyriadPro-Semibold;
 }
 
 .tag {
@@ -470,6 +470,8 @@ body .light-green {
   letter-spacing: 0.2em;
   display: flex;
   align-items: center;
+  font-family: MyriadPro-Bold;
+  min-height: 40px;
 }
 
 .section-title h2 {
