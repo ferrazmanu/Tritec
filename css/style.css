@@ -295,6 +295,7 @@ body .light-green {
   font-size: 18px;
   color: var(--pearl);
   line-height: 1.6;
+  font-family: MyriadPro;
 }
 
 /* SECTION BENEFITS */
@@ -470,7 +471,7 @@ body .light-green {
   letter-spacing: 0.2em;
   display: flex;
   align-items: center;
-  font-family: MyriadPro-Bold;
+  font-family: MyriadPro-Semibold;
   min-height: 40px;
 }
 
