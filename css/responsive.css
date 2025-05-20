@@ -1,0 +1,108 @@
+@media screen and (max-width: 1440px) {
+  #store .positioned-images {
+    left: 10%;
+    top: 24%;
+  }
+
+  #store .content .head-box {
+    padding-left: 48%;
+    padding-right: 12%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  #benefits .benefits-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  #benefits .benefits-grid .benefit-box {
+    padding: 12%;
+  }
+
+  .wavy-box {
+    --s: 350px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #contact .container {
+    gap: 24px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #store {
+    flex-direction: column-reverse;
+    padding: 5vh 0;
+    gap: 80px;
+  }
+
+  #store .content {
+    gap: 5vh;
+    width: 90%;
+  }
+
+  #store .positioned-images {
+    position: relative;
+    inset: 0;
+  }
+
+  #store .content .head-box {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+
+  #store .content .text-box {
+    padding: 2vh;
+    align-items: center;
+    width: 100%;
+    border-radius: 0;
+    height: auto;
+  }
+
+  #store .content .text-box .text {
+    width: 100%;
+  }
+
+  #contact {
+    padding: 0;
+  }
+  #contact .container {
+    border-radius: 0;
+  }
+  #contact .container .section-title {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    height: 70dvh;
+  }
+
+  .banner .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 8vh;
+    max-width: 90dvw;
+  }
+
+  .banner .text {
+    align-items: center;
+    text-align: center;
+    height: auto;
+  }
+
+  .banner .images-box {
+    width: fit-content;
+  }
+
+  #benefits .benefits-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .wavy-box {
+    --s: 330px;
+  }
+}
