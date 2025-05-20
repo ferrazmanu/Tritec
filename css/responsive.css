@@ -98,6 +98,10 @@
     width: fit-content;
   }
 
+  .banner .images-box .main-image {
+    max-width: 100%;
+  }
+
   #benefits .benefits-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
