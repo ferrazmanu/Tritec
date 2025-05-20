@@ -30,8 +30,12 @@ body .light-green {
 /* BANNER */
 .banner {
   background-color: var(--pearl);
-  height: 95dvh;
+  min-height: 95dvh;
   padding: 0 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner .content {
