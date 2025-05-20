@@ -1,19 +1,19 @@
 @font-face {
   font-family: MyriadPro;
-  src: url(./fonts/MYRIADPRO-REGULAR.OTF) format("opentype");
+  src: url(../fonts/MYRIADPRO-REGULAR.OTF) format("opentype");
 }
 
 @font-face {
   font-family: MyriadPro-Bold;
-  src: url(./fonts/MYRIADPRO-BOLD.OTF) format("opentype");
+  src: url(../fonts/MYRIADPRO-BOLD.OTF) format("opentype");
 }
 
 @font-face {
   font-family: MyriadPro-Semibold;
-  src: url(./fonts/MYRIADPRO-SEMIBOLD.OTF) format("opentype");
+  src: url(../fonts/MYRIADPRO-SEMIBOLD.OTF) format("opentype");
 }
 
 @font-face {
   font-family: MyriadPro-Light;
-  src: url(./fonts/MyriadPro-Light.otf) format("opentype");
+  src: url(../fonts/MyriadPro-Light.otf) format("opentype");
 }
