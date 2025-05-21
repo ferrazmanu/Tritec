@@ -87,11 +87,19 @@
   }
 
   .banner .images-box .main-image {
-    max-width: 100%;
+    max-width: 53vw;
   }
 
   #benefits .benefits-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  #store .positioned-images .main-image {
+    max-width: 53vw;
+  }
+
+  #learn-more .images-box .main-image {
+    max-width: 60vw;
   }
 
   .wavy-box {
