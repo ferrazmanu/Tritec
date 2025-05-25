@@ -77,6 +77,7 @@ body .light-green {
   width: 100%;
   position: relative;
   z-index: 10;
+  aspect-ratio: 3116/2443;
 }
 
 .banner .images-box .shape-half-round {
